@@ -13,7 +13,6 @@ body {
 }
 
 .menuItem {
-
   font-size: 1.4em;
   color: #da3b21;
   font-family: 'Raleway', sans-serif;
@@ -139,7 +138,6 @@ a:hover{
     .navbar-default .navbar-collapse .navbar-nav>li>a:hover {
       background-color: #f2cc52;
       border-radius: 0px;
-      
     }
 
     h1 {
