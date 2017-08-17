@@ -1,0 +1,173 @@
+body { 
+    padding-top: 20px;
+    background-color: #fff3de; 
+    background-image: url('../images/paper.png');
+    background-size: 100px;
+    font-family: 'Raleway', sans-serif;
+    color: #1b2e80;
+}
+
+.navbar-default {
+  background-color:rgba(0,0,0,0);
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.menuItem {
+
+  font-size: 1.4em;
+  color: #da3b21;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.menuItem::first-letter {
+  font-family: 'Rye', cursive;
+  font-size: 33px;
+}
+
+.navbar {
+  min-height: 110px;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+
+.itemPrice {
+	float: right;
+  font-size: 1.2em;
+}
+
+.menuItemContainer {
+  padding: 10px 22px;
+  height: auto;
+  }
+
+iframe {
+  margin: 20px 0;
+  border-radius: 15px;
+  border: 2px solid #da3b21;
+  width: 50%;
+}
+
+footer {
+  margin: 30px 0 0 0;
+  padding: 20px;
+  text-align: center;
+  color: grey;
+}
+
+#aboutUs {
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+#info p {
+  font-size: 16px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #1b2e80;
+  font-family: 'Rye', cursive;
+  font-size: 45px;
+}
+
+h2 {
+  color: #1b2e80;
+}
+
+.well {
+  background-color: #FFF;
+  border: 2px solid #da3b21;
+  border-radius: 10px;
+}
+
+hr {
+  border-color: #da3b21;
+  border-width: 2px;
+}
+
+.container .jumbotron {
+  background-color: #FFF;
+  border-radius: 15px;
+}
+
+a {
+  color: #1b2e80;
+}
+
+a:hover{
+  background-color: #f2cc52;
+  text-decoration: none;
+}
+
+#facebook, a:focus, a:hover {
+  color: #1b2e80;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: #f2cc52;
+  border-radius: 10px;
+}
+
+.well img {
+  margin: 0 20px;
+  width: 35px;
+}
+
+@media (max-width: 640px) {
+    body {
+      padding-top: 0px;
+    } 
+    
+    #logo {
+      height: 110px;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+      border-color: rgba(255, 255, 255, 0);
+      padding-top: 65px;
+    }
+
+    .navbar {
+      min-height: 100px;
+      margin-bottom: 40px;
+    }
+
+    .navbar-default .navbar-collapse .navbar-nav>li>a:hover {
+      background-color: #f2cc52;
+      border-radius: 0px;
+      
+    }
+
+    h1 {
+      margin-top: -15px;
+    }
+
+    .well {
+      border-color: #da3b21;
+      border-width: 2px 0 2px 0;
+      border-radius: 0px;
+    }
+
+    .well img {
+      margin: 0 10px;
+    }
+
+    #quail, #flower {
+      display: none;
+    }
+
+    iframe {
+      width: 100%;
+      border-radius: 0px;
+      border-width: 2px 0 2px 0;
+    }
+
+    .jumbotron p {
+      font-size: 16px;
+    }
+
+}
